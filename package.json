@@ -1,6 +1,6 @@
 {
-  "name": "strip-invariant",
-  "version": "1.0.0",
+  "name": "bloody-strip-invariant",
+  "version": "1.0.1",
   "description": "babel loader to make invariant calls lightweight in production",
   "main": "index.js",
   "scripts": {

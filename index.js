@@ -5,7 +5,7 @@ var types = babel.types
 
 module.exports = new Transformer("strip-invariant", {
   CallExpression: function(node, parent) {
-    if(node.callee.name) {
+    if(node.callee.name === "invariant") {
       return types.callExpression(types.identifier("invariant"), [
         node.arguments[0]
       ])
