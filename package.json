@@ -1,6 +1,6 @@
 {
   "name": "bloody-strip-invariant",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "babel loader to make invariant calls lightweight in production",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
+  "devDependencies": {
     "babel": "^5.1.11",
     "babel-core": "^5.1.11",
     "tape": "^4.0.0"
