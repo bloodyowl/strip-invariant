@@ -1,5 +1,7 @@
 # strip-invariant
 
+[![Build Status](https://travis-ci.org/bloodyowl/strip-invariant.svg?branch=master)](https://travis-ci.org/bloodyowl/strip-invariant)
+
 ## install
 
 ```console
